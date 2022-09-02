@@ -1,0 +1,47 @@
+---
+output:
+  word_document: default
+  html_notebook: default
+  fontsize: 12pt
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+\pagenumbering{gobble}
+
+\large
+
+7. The data file **vehicles.csv** contains the fuel economy data from the EPA, for all of the unique vehicles (vehicles with a unique EPA identifier) that were available from 1985 until 2015.  These data are also available from the *fueleconomy* R package, in the **vehicles** dataframe, which can be installed in R using the following R command, *install.packages("fueleconomy")*. The data set contains the twelve variables.
+
+| variable    | description  |
+| ----------- | ------------ |
+| id          | Unique EPA identifier |
+| make        | Manufacturer |
+| model       | Model name   |
+| year        | Model year   |
+| class       | EPA vehicle size class |
+| trans       | Transmission |
+| drive       | Drive train  |
+| cyl         | Number of cylinders |
+| displ       | Engine displacement, in litres |
+| fuel        | Fuel type |
+| hwy         | Highway fuel economy, in mpg |
+| cty         | City fuel economy, in mpg |
+
+(a) How many unique vehicles (vehicles with *id* values that are unique) were available in the years 1985-2015? 
+
+(b) Create a subset of the dataset including *2 wheel drive minivans* for the following 6 manufacturers, *Chrysler*, *Dodge*, *Honda*, *Kia*, *Nissan*, and *Toyota*.  How many unique *2 wheel drive minivans* were available in the years 1985-2015?
+
+(c) Make a table showing the number of unique minivans that were available from each manufacturer.  Which manufacturer offered the most unique minivans?  Which manufacturer has offered the least number of unique minivans?
+
+(d) Make a bargraph showing the number of unique minivans from each manufacturer computed in the previous part.
+
+(e) Make a table showing the average highway miles per gallon (mpg), of the unique minivans that were available, from each manufacturer.  Which manufacturer has the best miles per gallon?  Which manufacturer has the worst miles per gallon?
+
+(f) Make a bargraph showing the average miles per gallon values of unique minivans for each manufacturer computed in the previous part.
+
+(g) Plot the highway miles per gallon versus model year of unique minivans faceted for each manufacturer, using the same scales.  Include a linear regression smoother on each plot.  Make the plots again adding color for the fuel type.  Identify the outlier in the dataset.
+
+(h) Remove the outlier and remake the visualization from the previous part.
+
+(i) Does it appear that the fuel economy for the minivans from these manufacturers was improving over the years 1985 to 2015?  Which manufacturer(s) produced minivans that used gasoline or E85 for fuel over the years 1985 to 2015?
