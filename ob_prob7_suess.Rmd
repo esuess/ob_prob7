@@ -11,7 +11,7 @@ output:
 
 \large
 
-7. **Change** The data file **vehicles.csv** contains the fuel economy data from the EPA, for all of the unique vehicles (vehicles with a unique EPA identifier) that were available from 1985 until 2015.  These data are also available from the *fueleconomy* R package, in the **vehicles** dataframe, which can be installed in R using the following R command, *install.packages("fueleconomy")*. The data set contains the twelve variables.
+7. **Change** **Another Change** The data file **vehicles.csv** contains the fuel economy data from the EPA, for all of the unique vehicles (vehicles with a unique EPA identifier) that were available from 1985 until 2015.  These data are also available from the *fueleconomy* R package, in the **vehicles** dataframe, which can be installed in R using the following R command, *install.packages("fueleconomy")*. The data set contains the twelve variables.
 
 | variable    | description  |
 | ----------- | ------------ |
